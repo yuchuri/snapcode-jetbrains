@@ -1,27 +1,29 @@
-# IntelliJ Platform Plugin Template
+# Snapcode for JetBrains IDEs
 
-[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]
-[![Twitter Follow](https://img.shields.io/badge/follow-%40JBPlatform-1DA1F2?logo=twitter)](https://x.com/JBPlatform)
-[![Build](https://github.com/JetBrains/intellij-platform-plugin-template/workflows/Build/badge.svg)][gh:build]
-
-![IntelliJ Platform Plugin Template][file:intellij-platform-plugin-template-dark]
-![IntelliJ Platform Plugin Template][file:intellij-platform-plugin-template-light]
-
-> [!NOTE]
-> Click the <kbd>Use this template</kbd> button and clone it in IntelliJ IDEA.
+[![Build](https://github.com/yuchuri/snapcode-jetbrains/workflows/Build/badge.svg)][gh:build]
 
 <!-- Plugin description -->
-**IntelliJ Platform Plugin Template** is a repository that provides a pure template to make it easier to create a new plugin project (check the [Creating a repository from a template][gh:template] article).
+**Snapcode** is a JetBrains IDE plugin that lets you generate beautiful, shareable images of your code snippets directly from the editor.
 
-The main goal of this template is to speed up the setup phase of plugin development for both new and experienced developers by preconfiguring the project scaffold and CI, linking to the proper documentation pages, and keeping everything organized.
+Select any code in the editor, right-click, and choose **Take Code Snapshot** to open the Snapcode preview dialog. Customize the appearance and export the image.
 
-[gh:template]: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
+## Features
+
+- 🎨 **Syntax-highlighted** code rendering using your IDE's current color scheme
+- 🖼️ **Beautiful backgrounds** with customizable gradient colors
+- 🌗 **Dark and Light themes**
+- 🪟 **macOS-style window chrome** (optional)
+- 💡 **Drop shadow** effect
+- 📐 Adjustable **padding** and **font size**
+- 📋 **Copy to clipboard** or 💾 **Save as PNG**
+
+## Usage
+
+1. Select code in the editor
+2. Right-click → **Take Code Snapshot**
+3. Adjust options in the preview dialog
+4. Click **Copy to Clipboard** or **Save as PNG**
 <!-- Plugin description end -->
-
-If you're still not quite sure what this is all about, read our introduction: [What is the IntelliJ Platform?][docs:intro]
-
-> [!NOTE]
-> Click the <kbd>Watch</kbd> button on the top to be notified about releases containing new features and fixes.
 
 ### Table of contents
 

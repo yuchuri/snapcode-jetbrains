@@ -1,18 +1,23 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# IntelliJ Platform Plugin Template Changelog
+# Snapcode Changelog
 
 ## [Unreleased]
 
-### Changed
+## [0.1.0] - 2026-03-13
 
-- Upgrade Gradle Wrapper to `9.3.1`
-- Set empty `versionPrefix` for changelog in Gradle build file.
-- Dependencies - upgrade `org.jetbrains.intellij.platform` to `2.11.0`
-- Dependencies - upgrade `org.jetbrains.kotlin.jvm` to `2.3.0`
-- Dependencies - upgrade `org.jetbrains.qodana` to `2025.3.1`
-- Dependencies - upgrade `org.jetbrains.kotlinx.kover` to `0.9.5`
-- Dependencies (GitHub Actions) - upgrade `actions/checkout` to `v6`
+### Added
+
+- Initial release of Snapcode for JetBrains IDEs
+- Generate beautiful code snapshots from selected editor text
+- Syntax highlighting using the IDE's current color scheme
+- Customizable gradient background colors
+- Dark and Light window chrome themes
+- macOS-style window chrome (traffic-light buttons)
+- Drop shadow effect
+- Adjustable padding and font size
+- Copy snapshot to clipboard
+- Save snapshot as PNG file
 - Dependencies (GitHub Actions) - upgrade `actions/upload-artifact` to `v6`
 - GitHub Actions: Setup Java and Gradle actions for the `releaseDraft` build step
 
